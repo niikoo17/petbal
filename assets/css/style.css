@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #002169;
+    color: #445374;
+    padding: 20px 0px;
+}
+.header-middle nav{
+    display: flex;
+    align-items: center;
+}
+.lists{
+    display: flex;
+    gap: 25px;
+}
+.lists li{
+    font-size: 16px;
+    font-weight: 700;
+}
+.lists .dropdown-category-menu{
+    position:absolute;
+    top: 99px;
+    border-radius: 6px;
+    padding: 18px 0;
+    display: block;
+    background-color: #fff;
+    min-width: 230px;
+    border: 1px solid #f5f5f5;
+    visibility: hidden; 
+}
+.lists .dropdown-category-menu li{
+    display: flex;
+}
+.lists .dropdown-category-menu li a{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    color: #002169;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 550;
+}
+.lists li a{
+    color: #fff;
+}
+.lists button{
+    border: none;
+    background-color: #002169;
+    color: #fff;
+
+}
+body{
+    background-color: rgb(242 245 245);
+}
+.container a img{
+    width: 167px;
+    height: 44px;
+    margin-left: -230px;
+}
+.header-middle{
+    display: flex;
+    justify-content: space-between;
+}
+.header-end{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.header-end button{
+    padding: 12px 19px;
+    border: none;
+    background: #1B3B80;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Baloo Bhaina 2', sans-serif;
+    color: #fff;
+    border-radius: 100px;
+}
+.header-end i{
+    color: #BFCDEB;
+    font-size: 24px;
+}
+main{
+    margin-top: 150px;
+}
+.paragraph{
+    color: #894b8d;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Plus Jakarta Sans" , sans-serif;
+}.container div h3{
+    font-size: 48px;
+    font-weight:bolder;
+    font-family: sans-serif;
+    margin: 0px 0px 20px ;
+    color: #002169;
+    margin-top: -25px;
+    margin-bottom: -15px;
+}
+.container div h3 img{
+    margin-bottom: 40px;
+}
+.dropdown{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    border: none;
+    color: #7e8493;
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 14px 40px;
+}
+.dropdown div{
+    margin-left: -25px;
+}
+.dropdown p{
+    margin: 0;
+    margin-right: -25px;
+    color: #894B8D;;
+}
+.btn-inp{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.btn-inp nav input{
+    border: none;
+    border-color: #fff;
+    border-radius: 100px;
+    color: #7E8493;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 145px 12px 25px;
+    height: 50px;
+    
+}
+.btn-inp nav button{
+    border: none;
+    position: absolute;
+    top: 359px;
+    right: 800px;
+    background-color: #894B8D;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 11px 23px;
+    gap: 10px;
+    height: 50px;
+    border-radius: 100px;
+}
+.dogs{
+    display: flex;
+    align-items: center;
+    gap: 5px;  
+}
+.dogs div p{
+    margin-top: -5px;
+}
+.dogs div span{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.animals{
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+.cats{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.cats div p{
+    margin-top: -5px;
+}
+.cats div span{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.other-animal{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.other-animal div p{
+    margin-top: -5px;
+}
+.other-animal div span{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
